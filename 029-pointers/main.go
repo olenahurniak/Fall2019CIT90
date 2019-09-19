@@ -16,5 +16,6 @@ func main() {
 	a = &x
 	fmt.Println(a)
 
-	// fmt.Println("x is stored at this location", &x) ??????
+	// you can DEREFERENCE a pointer with the '*' operator
+	fmt.Println("here's the value that's stored in the memory location", *a)
 }
