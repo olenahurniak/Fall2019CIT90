@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catalog</title>
+</head>
+<body>
+    
+    Go To <a href="/">Home</a>
+    <br>
+    Go To <a href="/about">About</a>
+    <br>
+    {{range .}}     <!-- map -->
+    <h1>Catalogs for - {{.}}</h1>   <a href="Something">Books</a> <a href="Another">Movies</a> <!-- value -->
+    
+    {{end}}
+    <br>
+</body>
+</html>

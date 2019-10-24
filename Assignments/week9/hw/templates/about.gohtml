@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+</head>
+<body>
+    <br>
+    Go To <a href="/">Home</a>
+    <br>
+    Go To <a href="/catalog">Catalog</a>
+    {{range .}}     <!-- map -->
+    <h1>ABOUT - {{.}}</h1>     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate atque delectus nisi dicta in nam repellat optio illo similique, iure minus possimus veritatis numquam facere alias ullam corrupti expedita! Alias?</p> <!-- value -->
+    {{end}}
+
+</body>
+</html>
