@@ -1,0 +1,64 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.fa-coffee {
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 100vw;
+    background-color: rgba(198, 198, 198,.9);
+    /* layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+header div a {
+    color: white;
+}
+h1 {
+    color: rgb(212, 209, 212);
+    font-size: 8vw;
+}
+
+#atf {
+    width: 100ww;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px, solid, purple;
+    background-image: url("/resources/file/img/img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
