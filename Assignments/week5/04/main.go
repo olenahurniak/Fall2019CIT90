@@ -11,7 +11,7 @@ import (
 type funcDef func(string) string
 
 func foo(s string) string {
-        return fmt.Sprintf("from foo: %s", s)
+        return fmt.Sprintf("info from foo func: %s", s)
 }
 
 func test(someFunc funcDef, s string) string {

@@ -1,3 +1,4 @@
+// HANDS-on EXERCISE #6 week 5
 package main
 
 import (
